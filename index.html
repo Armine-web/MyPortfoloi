@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<header class = header>
+    <div class="container">
+        <div class="header_inner">
+            <div class="user"> 
+                <div class="user_content">
+                    <div class="user_name">Armine<br>Aghajanyan</div>
+                    <div class="user_prof">Full-Stack Web Developer</div>
+                </div>
+            </div>
+            <div class="nav" id="nav">
+                <a class="nav_link" href="#" data-scroll="#work">work</a>
+                <a class="nav_link" href="#" data-scroll="#about" >about me</a>
+                <a class="nav_link" href="#" data-scroll="#courses">blog</a>
+                <a class="nav_link" href="mailto:armine.aghajanyan123@gmail.com" >contact</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="intro">
+    <div class="container">
+        <div class="intro_inner">
+            <div class="intro_content">
+                <h2 class="intto_subtitle">Hello i'm</h2>
+                <h1 class="intro_title">Armine Aghajanyan</h1>
+                <div class="intro_text">Full-Stack Web Developer</div>
+                <div class="social">
+                    
+                    <a class="social_link" href="www.linkedin.com/in/armine-aghajanyan-613722236">
+                        <img src="Images/linkedin.png" alt="">
+                    </a>
+                    <a class="social_link" href="https://www.facebook.com/armine.agajanyan.3">
+                        <img src="Images/facebook.png" alt="">
+                    </a>
+                    <a class="social_link" href="https://l.facebook.com/l.php?u=https%3A%2F%2Ft.me%2Faghadjanyanarmine%3Ffbclid%3DIwAR3vX1QuZPVVDgeI8Yd4FvrII5yr8CG7cB7wxzfftepnluzR9zKvvamGnRM&h=AT1NZpxXH9HbrsQOZT8oAKCvZ_22m77KBuaImqfPT4-2QOJm74m-OM3k1NXTn5bK-mSDBX8utD7ogAVkQC2yoz1DT98CMgV7jxDBzsclchhvIOlYjvF8Svds5-wdOo7lk-AExA">
+                        <img src="Images/telegram.png" alt="">
+                    </a>
+                 
+                </div>
+                    <button class="btn" type="button" data-modal ="#modal_resume">SEE MY RESUME</button>
+            </div>
+
+            <img class="intro_photo" src="Images/web-developer.jpg" alt="">
+        </div>
+
+    </div>
+
+</div>
+<div class="works" id ="work">
+    <div class="container">
+        <h3 class="text_centre"> My works</h3>
+        
+        <div class="portfolio">
+            <div class="work">
+                <img class="work_photo" src="images/img1.png" alt="">
+                <div class="work_content"></div>
+                <div class="work_cat">category: website</div>
+                <div class="work_title">
+                    Online Shop
+                    <div class="work_date">2022</div>
+                </div>
+            </div>
+            <div class="work">
+                <img class=work_photo src="images/Rectangle 4.png" alt="">
+                <div class="work_content"></div>
+                <div class="work_cat">category: website</div>
+                <div class="work_title">
+                    Planeta
+                    <div class="work_date">2022</div>
+                </div>
+            </div>
+            <div class="work" >
+                <img class=work_photo src="images/bee.jpg" alt="">
+                <div class="work_content"></div>
+                <div class="work_cat">category: website</div>
+                <div class="work_title">
+                    Beeceping
+                    <div class="work_date">2022</div>
+                </div>
+            </div>
+        </div>
+        <div class="link"><a class="course_limk" href="https://github.com/Armine-web">My Work in Github</a></div>
+    </div>
+   
+</div>
+<div class="about" id="about">
+    <div class="container">
+        <div class="about_inner">
+            <img class="about_photo" src="images/web developer.jpg" alt="">
+            <div class="about_content">
+                <h3 class="about_title">about my</h3>
+                <h2 class="about_bigtitle">who am i</h2>
+                <div class="about_text">
+                    <p>I am Armine Aghajanyan.</p>
+                    <p>I am Web Developer. I had an internship in Peyotto Technologies.</p>
+                    <p>I spent 3 months researching the following web technologies: Html, Css, Flex, Bootstrap, Php, MySql, Wordpress and Js. </p>
+                    <p>I have worked on various projects.</p>
+                </div>
+                <button class="btn" type="button" data-modal ="#modal_resume" >see my resume</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="reviews">
+    <div class="container">
+        <div class="reviews_inner">
+            <div class="reviews_text">
+                <p>I like programming. </p>
+                <p>I learn fast and work with different tools.</p>
+                
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+<div class="courses" id ="courses">
+    <div class="container">
+        <h3 class="text_centre marjin">My Skills</h3>
+        
+        
+        <div class="courses_inner">
+            <div class="course" >
+                <img class="course_photo" src="images/htmlCss.jpg" alt="">
+
+                <div class="course_content">
+                    <h4 class="course_name">HTML, CSS, FLEX, BOOTSTRAP</h4>
+                    <div class="course_text">
+                        <p>HTML <br>
+                            general tags, Attributes, Attributes, Styles, Comments, Text Formatting, Images, Tables, Lists, classes, id, Iframes, Responsive, Symbols, Forms, Attributes, Elements, Inputes...
+                        <br>
+                        Css <br>
+                            general styling, Selectors, RGB, HEX, HSL, RGBA, HSLA colors,Backgrounds, Borders, Margins, Padding, Offset, Text Formating, Display Property, Position, z-index,Display, Opacity / Transparency, !important, Styling Images, Flexbox <br>Bootstrap <br>
+                            
+                            </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="course">
+                <img class="course_photo" src="images/php.png" alt="">
+
+                <div class="course_content">
+                    <h4 class="course_name">PHP, MYSQL, WORDPRESS</h4>
+
+                    <div class="course_text">
+                       <P>
+                        PHP <br>
+                        Variables,
+                        Data Types,
+                        String,
+                        Numbers,
+                        Constant,
+                        If...Else...Elseif,
+                        Switch,
+                        Loops,
+                        Functions,
+                        Arrays,
+                        Superglobals,
+                        <br>
+                        Forms <br>
+                        HTTP POST, GET reuqests,
+                        Validation,
+                        
+                        Data and Time,
+                        Include,
+                        File read, write, create,
+                        File upload,
+                        Cookies,
+                        sessions,
+                        Filters,
+                        Json <br>
+                        
+                        WordPress <br>
+                        general structure,
+                        functions.php,
+                        widget,
+                        $wpdb  queries,
+                        Plugins,
+                        Hooks,
+                        Shortcode,
+                        Templates,
+                        Admin Panel,
+                        Posts, pages, Categoris, Costom Filds Terms, Taxonomes, Media,
+                        Users...
+                        
+                    
+                        
+                        <br>
+                        Database <br>
+                        MySQL,
+                        Connect,
+                        create table,
+                        insert, update, delete, select,
+                        group by ?,
+                        where ?,
+                        Join,
+                       </P>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="course">
+                <img class="course_photo" src="images/js.png" alt="">
+
+                <div class="course_content">
+                    <h4 class="course_name">ANGULAR. PRACTICAL COURSE</h4>
+                    <div class="course_cat">WEB DEVELOPMENT</div>
+                    <div class="course_text">
+                        <p> 
+                            DOM <br>
+                            getElementById,
+                            getElementsByClassName,
+                            getElementsByTagName,
+                            createElement,
+                            querySelectorAll,
+                            <br>
+                            mouse events/onclick,onmouseover, 
+                            keyboard events/onkeydown, onkeypress, onkeyup,
+                            Onchange,
+                            HTML element create, remove,
+                            search /filter functional,
+                            array functions/ Map, Filter, Foreach,
+                            arrow functions,
+                            JSON,
+                            Console,
+                            Round, Sort, Uppend,Push, Pop  
+                            ...</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="link"><a class="course_limk" href="https://github.com/Armine-web">My Work in Github</a></div>
+        
+
+
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer_inner">
+            <div class="footer_info">
+                <div class="footer_copyright">
+                    &copy; 2022 - Armine Aghajanyan
+                </div>
+                <div class="footer_social">
+                    <a class="footer_linke" href="www.linkedin.com/in/armine-aghajanyan-613722236">
+                        <img src="images/linkedin_icon.png" alt="">
+                    </a>
+                    <a class="footer_linke" href="https://www.facebook.com/armine.agajanyan.3">
+                        <img src="images/facebook_icon.png" alt="">
+                    </a>
+
+                   
+                   
+                </div>
+            </div>
+            <div class="footer_nav">
+                <a class="footer_nav_link" href="#" data-scroll="#work">work</a>
+                <a class="footer_nav_link" href="#" data-scroll="#about" >about me</a>
+                <a class="footer_nav_link" href="#" data-scroll="#courses">blog</a>
+                <a class="footer_nav_link" href="mailto:armine.aghajanyan123@gmail.com" >contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal" id="modal_resume">
+    <div class="modal_dialog">
+        <h3 class="modal_title">RESUME</h3>
+        <img class="modal_photo" src="images/resume.jpg" alt="">
+        <a class="btn btn_edit btn_modal" href="images/resume.jpg" download="">download</a>
+    </div>
+
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
