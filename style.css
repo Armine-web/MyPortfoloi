@@ -1,9 +1,4 @@
-:root {
-    --black: #2b2a2c;
-    --gray: #8f8f90;
-    --whit: #ffffff;
-    --gray-light: #dedede;
-}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -13,20 +8,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-p {
-    margin: 0, 0, 1rem;
-    font-size: 14px;
-}
 *,
 *:before,
 *:after{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+p {
+    margin: 0 0 1rem;
+    font-size: 14px;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 .header {
@@ -50,14 +49,14 @@ p {
 }
 .user_name {
     font-size: 1rem;
-    color: var(--black);
+    color: #2b2a2c;
     font-weight: bold;
     margin-bottom: 3px;
    
 }
 .user_prof {
     font-size: 0.75rem;
-    color: var(--black);
+    color: #2b2a2c;
     opacity: 0.7;
 }
 .nav {
@@ -69,9 +68,8 @@ p {
 .nav_link {
     margin-left: 2rem;
     position: relative;
-
     font-size: 0.9rem;
-    color: var(--black);
+    color: #2b2a2c;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -81,30 +79,30 @@ p {
     padding: 0 0 4px;
 }
 .intro_inner {
+    align-items: center;
     display: flex;
-    padding-top: 105px;
-    padding-bottom: 140px;
-    position: relative;
-
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-bottom: 1px solid #000;
 }
 .intro_photo{
-    width: 50%;
+    max-width: 500px;
 }
 .intto_subtitle{
-    color: var(--black); 
+    color: #2b2a2c; 
     font-weight: 200;
     font-size: 2rem;
 }
 .intro_title {
-    color: var(--black);
+    color: #2b2a2c;
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 5px;
 
 }
 .intro_text {
-    color: var(--black);
+    color: #2b2a2c;
     font-size: 18px;
     opacity: 1,2rem;
 }
@@ -133,7 +131,7 @@ p {
     cursor: pointer;
 
     font-size: 1rem;
-    color: var(--black);
+    color: #2b2a2c;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -143,20 +141,13 @@ p {
     background: #000;
     color: #ffffff;
 }
-.intro_photo {
-    position: absolute;
-    bottom: -0.3rem;
-    right: -1.3rem;
-    z-index: 1;
-    margin-bottom: 1.5rem;
-}
 .text_centre {
     margin-top: 52px;
     margin-bottom: 21px;
     text-align: center;
 
     font-size: 45px;
-    color: var(--black);
+    color: #2b2a2c;
     font-weight: bold;
 
 }
@@ -186,33 +177,36 @@ p {
 
 .work_cat{
     font-size: 0.75rem;
-    color: var(--black);
+    color: #2b2a2c;
     text-transform: uppercase;
-    margin-bottom: 0.4rem;
+    margin: 0.4rem;
+
 }
 .work_title{
     display: flex;
     justify-content: space-between;
     font-size: 1rem;
-    color: var(--black);
+    color: #2b2a2c;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0.4rem;
 
 }
 .about_inner {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 112px;
+    margin-bottom: 50px;
 }
 .about_photo {
     max-width: 50%;
-    padding-left: 53px;
+    padding: 10px;
     
 }
 .about_content{
     width: 50%;
-    margin-top: 84px;
-    padding-left: 118px;
+    margin-top: 50px;
+    
 }
 .about_title{
     font-size: 45px;
@@ -230,12 +224,12 @@ p {
     margin-top: 45px;
     margin-bottom: 60px;
     font-size: 12px;
-    font-weight: light;
+    font-weight: lighter;
     color: #929090;
 }
 .reviews{
     
-    background: #332f30  url(images/Inteligentny\ obiekt\ wektorowy1.png) center no-repeat;
+    background: #332f30  url(images/wektorowy1.png) center no-repeat;
     padding: 3rem 0;
     position: relative;
 
@@ -270,7 +264,7 @@ p {
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 300;
-    color: var(--gray);
+    color: #8f8f90;
     font-style: italic;
 }
 .reviews_rating {
@@ -280,14 +274,14 @@ p {
     opacity: 0.3;
 }
 .courses{
-    margin-top: 238px;
-    margin-bottom: 126px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .subtitle{
     text-align: center;
     font-size:18px ;
     font-weight: 300;
-    color: var(--gray);
+    color: #8f8f90;
 }
 .marjin{
     margin-top: 1rem;
@@ -307,8 +301,7 @@ p {
 .course_name {
     margin-top: 26px;
     font-size: 18px;
-    font-size: bold;
-    color: var(--black);
+    color: #2b2a2c;
 }
 .course_cat {
     margin-top: 17px;
@@ -321,7 +314,7 @@ p {
     margin-top: 34px;
     font-size: 12px;
     font-weight: 300;
-    color: var(--gray);
+    color: #8f8f90;
 }
 .btn_edit {
     width: 135px;
@@ -331,7 +324,7 @@ p {
 }
 .course_limk {
     font-size: 14px;
-    color: var(--gray);
+    color: #8f8f90;
     
     font-weight: 300;
     
@@ -378,7 +371,7 @@ p {
 }
 .footer_nav_link{
     font-size: 14px;
-    color: var(--gray);
+    color: #8f8f90;
     margin-left: 1rem;
     text-decoration: none;
 
@@ -412,7 +405,7 @@ p {
 }
 .modal_title {
     font-size: 2rem;
-    color: var(--black);
+    color: #2b2a2c;
     font-weight: bold;
     padding: 3rem, 0;
 }
@@ -423,6 +416,9 @@ p {
 .btn_modal {
     margin: 3rem, 0;
 }
+.hide{
+    display: none;
+}
 
 @media (max-width: 1199px) {
     .intro {
@@ -430,7 +426,7 @@ p {
     }
     .intro_photo {
         width: 100%;
-        position: relative;
+
     }
     .intro_inner {
         display: flex;
@@ -492,6 +488,10 @@ p {
     .course_limk {
         font-size: 1.1rem;
     }
+}
+#more {
+    display: none;
+    
 }
 @media (max-width: 767px) {
     .user {
