@@ -531,8 +531,12 @@ p {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .portfolio .work{
+        width: 100%;
+    }
+    
     .about_photo {
-        min-width: 100%;
         margin: 0;
         padding: 0;
         height: 100%;
